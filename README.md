@@ -41,3 +41,9 @@ Then the plot of all cumulative donations, both reattributed as well as total, l
 ![alt tag](https://cloud.githubusercontent.com/assets/7156397/5518583/d3e096e4-88fc-11e4-9892-15b6def6afa4.png)
 
 This shows that a lot of McCain's donations come from CEO's, contrary to what we concluded earlier. Thus it is important to see which data is being left out before reaching conclusions, as it is easy to fabricate results that oen wants by intentionally omitting data.
+
+5) hist.py
+
+Here is a histogram of donations with a binwidth of $100.
+
+![alt tag]()
