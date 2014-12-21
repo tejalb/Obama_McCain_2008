@@ -47,3 +47,4 @@ This shows that a lot of McCain's donations come from CEO's, contrary to what we
 Here is a histogram of donations with a binwidth of $100. Since the range of donations is very large, varying from -$1 million to $8 million, while majority of donations are less than 2000, we only display bins from -$22000 to $22000.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/7156397/5519103/bee0cfa6-8911-11e4-8866-f90915a98c66.png)
+
