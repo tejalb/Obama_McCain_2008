@@ -17,3 +17,9 @@ C00430470   DARIEN  RETIRED McCain, John S  SA17A   P80002801   068202003       
 C00430470   LOS ANGELES EXECUTIVE   McCain, John S  SA17A   P80002801   900492125   A.E.G.  LEIWEKE, TIMOTHY J. MR. 30-APR-08   CA  X   REFUND; REDESIGNATION REQUESTED 364146  REFUND; REDESIGNATION REQUESTED -2300
 
 If a donation by person A exceeds limits, then the excessive part can be "reattributed" to person B, so it appears that person B donated the rest to the campaign. 'Reattribution to Spouse' probably means that when a CEO donates to the campaign, his donation is reattributed to his spouse, making it harder to spot which candidates are being supported by CEO's.
+
+2) obama_mccain_cumul.py
+
+Plot the cumulative donations upto a given data, for both candidates. The plot obtained is
+
+![alt tag](https://cloud.githubusercontent.com/assets/7156397/5517688/948f4a40-88c4-11e4-9f76-77b91b0540ac.png)
