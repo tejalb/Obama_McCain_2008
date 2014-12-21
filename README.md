@@ -9,7 +9,7 @@ The dataset can be obtained from ftp://ftp.fec.gov/FEC/Presidential_Map/2008/P00
 Extract data for Obama and McCain from the dataset. Calculate the total amount of donations for each day and plot them to 
 compare. The obtained plots show some negative donations, which we can explore further. The obtained plot is 
 
-![alt tag](https://cloud.githubusercontent.com/assets/7156397/5517637/59994242-88bf-11e4-9dbe-76d9966a7965.png
+![My image](url: https://cloud.githubusercontent.com/assets/7156397/5517637/59994242-88bf-11e4-9dbe-76d9966a7965.png
 
 The lines compared to negative donations look like:
 
