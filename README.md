@@ -34,6 +34,8 @@ Now to explore the REATTRIBUTION entires further, I found which field contains '
 From a cursory glance it seems that Obama has a lot of hooded supporters. But what we really shoudl check is the ratio of the cumulative reattributed donations to the cumulative total donations, to see what fraction of the total
 donations are coming from unidentified supporters.
 
+4) reattribution_ratio.py
+
 Then the plot of this ratio looks like:
 
 ![alt tag](https://cloud.githubusercontent.com/assets/7156397/5518231/ff701ba8-88e9-11e4-977d-11b1e09a8a93.png)
