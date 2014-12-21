@@ -7,7 +7,10 @@ The dataset can be obtained from ftp://ftp.fec.gov/FEC/Presidential_Map/2008/P00
 1) obama_mccain.py:
 
 Extract data for Obama and McCain from the dataset. Calculate the total amount of donations for each day and plot them to 
-compare. The obtained plots show some negative donations, which we can explore further. The obtained plot is obama_mccain.png
+compare. The obtained plots show some negative donations, which we can explore further. The obtained plot is 
+
+![alt tag](https://cloud.githubusercontent.com/assets/7156397/5517637/59994242-88bf-11e4-9dbe-76d9966a7965.png
+
 The lines compared to negative donations look like:
 
 C00430470   DARIEN  RETIRED McCain, John S  SA17A   P80002801   068202003       VAN MUNCHING, LEO MR. JR.   02-AUG-07   CT  X   REATTRIBUTION TO SPOUSE 315387  REATTRIBUTION TO SPOUSE -2300
