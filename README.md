@@ -27,7 +27,7 @@ Plot the cumulative donations upto a given data, for both candidates. The plot o
 
 3) reattribution.py
 
-Now to explore the REATTRIBUTION entires further, I found which field contains 'REATTRIBUTION' and found cumulative counts filtered based on this. For Obama, the entry is always 'REATTRIBUTION FROM', i.e. 'REATRIBUTION TO SPOUSE" does not appear in the entries for Obama, while for McCain this is not the case. I filtered on just the 'SPOUSE' which is contained in the memo_text field. The plot below shows cumulative donations which are reattributed.
+Now to explore the REATTRIBUTION entires further, I found which field contains 'REATTRIBUTION' and found cumulative counts filtered based on this. For Obama, the entry is always 'REATTRIBUTION FROM', i.e. 'SPOUSE' does not appear in the entries for Obama, while for McCain this is not the case. I filtered on just 'REATTRIBUTION FROM' which is contained in the memo_text field. The plot below shows cumulative donations which are reattributed.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/7156397/5518048/09c91942-88e0-11e4-8dba-8b36be4a1375.png)
 
