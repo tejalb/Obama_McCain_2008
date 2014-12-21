@@ -36,3 +36,6 @@ donations are coming from unidentified supporters.
 
 Then the plot of this ratio looks like:
 
+![alt tag](https://cloud.githubusercontent.com/assets/7156397/5518231/ff701ba8-88e9-11e4-977d-11b1e09a8a93.png)
+
+This shows that a lot of McCain's donations come from CEO's, contrary to what we concluded earlier. Thus it is important to see which data is being left out before reaching conclusions, as it is easy to fabricate results that oen wants by intentionally omitting data.
