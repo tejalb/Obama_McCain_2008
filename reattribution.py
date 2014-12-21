@@ -6,6 +6,8 @@ reader=csv.DictReader(open(sys.argv[1],'r'))
 
 obamadonations=defaultdict(lambda:0)
 mccaindonations=defaultdict(int)
+obamatot=defaultdict(int)
+mccaintot=defaultdict(int)
 
 for row in reader:
     name=row['cand_nm']
@@ -16,16 +18,22 @@ for row in reader:
 #        if 'TO SPOUSE' in v:
 #            print k,v
 #            break;
+    if 'Obama' in name:
+        obamatot[date] += amount
+    if 'McCain' in name:
+        mccaintot[date] += amount
+
     if 'REATTRIBUTION' in row['receipt_desc']:
 #        print amount
 #        print name
         if 'Obama' in name:
-           obamadonations[date] += -1*amount
+           obamadonations[date] += amount
 #           print obamadonations[date]
-        elif 'McCain' in name:
-            mccaindonations[date] += -1*amount
-#            print name
+        elif 'McCain' in name and 'FROM SPOUSE' in row['receipt_desc']:
+            mccaindonations[date] += amount
+#            print mccaindonations[date]
 # dicts
+
 
 sort_by_date_o= sorted(obamadonations.items(), key=lambda (key,val): key)
 sort_by_date_m= sorted(mccaindonations.items(), key=lambda (key,val): key)
