@@ -36,8 +36,8 @@ donations are coming from unidentified supporters.
 
 4) reattribution_ratio.py
 
-Then the plot of this ratio looks like:
+Then the plot of all cumulative donations, both reattributed as well as total, looks like this:
 
-![alt tag](https://cloud.githubusercontent.com/assets/7156397/5518231/ff701ba8-88e9-11e4-977d-11b1e09a8a93.png)
+![alt tag](https://cloud.githubusercontent.com/assets/7156397/5518583/d3e096e4-88fc-11e4-9892-15b6def6afa4.png)
 
 This shows that a lot of McCain's donations come from CEO's, contrary to what we concluded earlier. Thus it is important to see which data is being left out before reaching conclusions, as it is easy to fabricate results that oen wants by intentionally omitting data.
