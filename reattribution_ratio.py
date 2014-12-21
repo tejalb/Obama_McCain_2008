@@ -34,19 +34,18 @@ for row in reader:
 #            print mccaindonations[date]
 # dicts
 
-o_r=defaultdict(int)
-m_r=defaultdict(int)
-for k,v in obamadonations.iteritems():
-    if obamatot[k]>0:
-        o_r[k]=v/obamatot[k]
-for k,v in mccaindonations.iteritems():
-    if mccaintot[k]>0:
-        m_r[k]=v/mccaintot[k]
 
-sort_by_date_o= sorted(o_r.items(), key=lambda (key,val): key)
-sort_by_date_m= sorted(m_r.items(), key=lambda (key,val): key)
+sort_by_date_o= sorted(obamadonations.items(), key=lambda (key,val): key)
+sort_by_date_m= sorted(mccaindonations.items(), key=lambda (key,val): key)
 xo,yo=zip(*sort_by_date_o)
 xm,ym=zip(*sort_by_date_m)
+
+
+t_sort_by_date_o= sorted(obamatot.items(), key=lambda (key,val): key)
+t_sort_by_date_m= sorted(mccaintot.items(), key=lambda (key,val): key)
+xot,yot=zip(*t_sort_by_date_o)
+xmt,ymt=zip(*t_sort_by_date_m)
+
 
 yo_cl=[]
 ym_cl=[]
@@ -60,7 +59,35 @@ for num in ym:
     cumul+=num
     ym_cl.append(cumul)
 
-plt.plot(xo,yo_cl,label=' Obama\'s donations')
-plt.plot(xm,ym_cl,label=' McCain\'s donations')
-plt.legend(loc='upper center', ncol=4)
-plt.savefig('spouse_ratio.png', format='png')
+tyo_cl=[]
+tym_cl=[]
+cumul=0
+for num in yot:
+    cumul+=num
+    tyo_cl.append(cumul)
+
+cumul=0
+for num in ymt:
+    cumul+=num
+    tym_cl.append(cumul)
+
+rat_o=[yo_cl[i]/tyo_cl[i] for i in range(len(yo_cl))]
+rat_m=[ym_cl[i]/tym_cl[i] for i in range(len(ym_cl))]
+
+print len(ym_cl), len(tym_cl), len(xm), len(xmt)
+
+#print xo[0]
+#print xot[0]
+plt.plot(xo,yo_cl,label=' Obama\'s reattributed donations')
+plt.plot(xot,tyo_cl,label=' Obama\'s total donations')
+plt.plot(xm,ym_cl,label=' McC\'s reattributed donations')
+plt.plot(xmt,tym_cl,label=' McC\'s total donations')
+
+#plt.plot(xo,yo_cl,label=' Obama\'s donations')
+#plt.plot(xot,tyo_cl,label=' Obama\'s total donations')
+#plt.plot(xm,ym_cl,label=' McC\'s donations')
+#plt.plot(xmt,tym_cl,label=' McC\'s total donations')
+
+#plt.plot(xm,ym_cl,label=' McCain\'s donations')
+plt.legend(loc='upper center', ncol=1)
+plt.savefig('spouse_rat.png', format='png')
