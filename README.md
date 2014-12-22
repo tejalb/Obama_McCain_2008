@@ -3,7 +3,7 @@ Obama_McCain_2008
 
 Analyzing the 2008 Presidential campaign dataset
 The dataset can be obtained from ftp://ftp.fec.gov/FEC/Presidential_Map/2008/P00000001/P00000001-ALL.zip.
-This is a large dataset containing ** 4085666 ** lines.
+This is a large dataset containing 4085666 lines.
 
 1) obama_mccain.py:
 
@@ -49,3 +49,8 @@ Here is a histogram of donations with a binwidth of $100. Since the range of don
 
 ![alt tag](https://cloud.githubusercontent.com/assets/7156397/5519103/bee0cfa6-8911-11e4-8866-f90915a98c66.png)
 
+6) map.py
+
+It is useful to see the state-wise donations for each candidate. In order to draw the states, I used a wrapper provided on http://dataiap.github.io/dataiap/ which draws a colored state given its name. Here are the state-wise donations for Obama and McCain:
+
+![alt_tag]()
