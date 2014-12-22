@@ -53,4 +53,4 @@ Here is a histogram of donations with a binwidth of $100. Since the range of don
 
 It is useful to see the state-wise donations for each candidate. In order to draw the states, I used a wrapper provided on http://dataiap.github.io/dataiap/ which draws a colored state given its name. Here are the state-wise donations for Obama and McCain:
 
-![alt_tag]()
+![alt_tag](https://cloud.githubusercontent.com/assets/7156397/5521605/2f1395c2-8973-11e4-8f35-9361fd1e0f12.png)
