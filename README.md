@@ -3,6 +3,7 @@ Obama_McCain_2008
 
 Analyzing the 2008 Presidential campaign dataset
 The dataset can be obtained from ftp://ftp.fec.gov/FEC/Presidential_Map/2008/P00000001/P00000001-ALL.zip.
+This is a large dataset containing ** 4085666 ** lines.
 
 1) obama_mccain.py:
 
